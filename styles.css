@@ -1,0 +1,42 @@
+body {
+
+}
+
+.row {
+    width: 100%;
+    
+}
+
+.col-md-3 {
+    border-right: 1px solid rgb(235, 229, 229);
+}
+
+/* #border {
+    padding: 3%;
+} */
+/* #left {
+    position: fixed;
+    top:0px;
+    bottom:auto;
+    right:auto;
+    left:0px;   
+}  */
+
+.col-md-9 {
+    
+    
+}
+
+
+#profile-pic img {
+    width: 100%;
+}
+
+#contact {
+    width: 100%;
+}
+
+#recent-properties img {
+    width: 100%;
+    padding: 2%;
+}
