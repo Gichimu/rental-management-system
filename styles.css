@@ -7,6 +7,11 @@ body {
     
 }
 
+#breadcrumb {
+    width: 100%;
+    padding: 2%;
+}
+
 .col-md-3 {
     border-right: 1px solid rgb(235, 229, 229);
 }
