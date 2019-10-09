@@ -12,18 +12,22 @@ body {
     padding: 2%;
 }
 
-#legend li a {
+#legend a, #account a {
     text-decoration: none;
     list-style: none;
     display: block;
 }
 
-li {
+.col-md-3 {
+    border-right: 1px solid rgb(235, 229, 229);
+}
+
+li{
     list-style: none;
 }
 
-.col-md-3 {
-    border-right: 1px solid rgb(235, 229, 229);
+footer {
+    margin: 3%;
 }
 
 /* #border {
@@ -36,6 +40,10 @@ li {
     right:auto;
     left:0px;   
 }  */
+
+.header {
+    padding: 5px;
+}
 
 .col-md-9 {
     
