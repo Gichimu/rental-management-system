@@ -46,11 +46,8 @@ a:hover{
     justify-content: space-evenly;
     flex-wrap: nowrap;
 } 
-
-.hidden {
+#overlay1, #overlay2, #overlay3 {
     display: none;
 }
 
-.show {
-    display: block;
-}
+
