@@ -12,6 +12,16 @@ body {
     padding: 2%;
 }
 
+#legend li a {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
 .col-md-3 {
     border-right: 1px solid rgb(235, 229, 229);
 }
@@ -44,4 +54,8 @@ body {
 #recent-properties img {
     width: 100%;
     padding: 2%;
+}
+
+#btn-profile {
+    width: 100%;
 }

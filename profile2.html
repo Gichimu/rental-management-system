@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Property management System</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="breadcrumb">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Login</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Profile update</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-3" id="left">
+                <div class="sticky-top">
+                    <h5><strong>Manage Listings</strong></h5>
+                    <div class="" id="legend">
+                        <li><a href="">Add listing</a></li>
+                        <li><a href="">Bookmarked listings</a></li>
+                        <li><a href="">My listings</a></li>
+                    </div>
+                    <h5><strong>Manage Account</strong></h5>
+                    <div class="" id="account">
+                        <li><a href="">My profile</a></li>
+                        <li><a href="">Change Password</a></li>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-8">
+                <div class="" id="about">
+                    <h2 class="">My Profile</h2>
+                    <small>Manage your profile</small>
+                    <hr>
+                    <h3 class="">Basic Information</h3>
+                </div>
+                <hr>
+                <div class="" id="profile-edit">
+                    
+                    <form>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>First Name</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="first name">
+                            </div>
+                            <div class="col">
+                                <small>Last Name</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>Your email</small>
+                                <input type="email" class="form-control form-control-lg" placeholder="john.doe@email.com">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>Phone</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="+254 720 000 000">
+                            </div>
+                            <div class="col">
+                                <small>Fax</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>About Me</small>
+                                <textarea type="text" class="form-control form-control-lg" placeholder="john.doe@email.com"></textarea>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-lg btn-warning" id="btn-profile">Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
