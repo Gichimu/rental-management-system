@@ -39,3 +39,18 @@ a:hover{
     width: auto;
     height: auto;
 }
+
+#listings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+} 
+#overlay1, #overlay2, #overlay3 {
+    display: none;
+}
+
+p, h3, li{
+    font-family: 'Khula', sans-serif;
+}
+
