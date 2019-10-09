@@ -39,3 +39,18 @@ a:hover{
     width: auto;
     height: auto;
 }
+
+#listings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+} 
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}

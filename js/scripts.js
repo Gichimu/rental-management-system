@@ -1,5 +1,5 @@
 
-
+//contact validation
 function validate(){
   var test = "test";
   var email = "email@domain.com"
@@ -17,3 +17,15 @@ function validate(){
   alert("Thank you " + test + " for contacting us  We have received your message ");
   }
 }
+/*******contact validation */
+
+//hover text for index images
+
+$(document).ready(function(){
+  $("#img1").mouseover(function(){
+    $("#1").addClass(".show");
+  });
+  $("#img1").mouseleave(function(){
+    $("#1").addClass(".hidden");
+  });
+});
