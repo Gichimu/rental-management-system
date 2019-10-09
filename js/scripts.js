@@ -19,6 +19,10 @@ function validate(){
 }
 /*******contact validation */
 
+
+
+
+
 //hover text for index images
 
 $(document).ready(function(){
@@ -29,13 +33,13 @@ $(document).ready(function(){
    $("#img1").mouseleave(function(){
    $("#overlay1").hide();
    });
-   $("#img2").mouseenter(function(){
+  $("#img2").mouseenter(function(){
     $("#overlay2").show();
     
   });
-   $("#img2").mouseleave(function(){
-   $("#overlay2").hide();
-   });
+  $("#img2").mouseleave(function(){
+    $("#overlay2").hide();
+  });
    $("#img3").mouseenter(function(){
     $("#overlay3").show();
     
@@ -43,4 +47,39 @@ $(document).ready(function(){
    $("#img3").mouseleave(function(){
    $("#overlay3").hide();
    });
+
+    // UPLOAD CLASS DEFINITION
+    // ======================
+
+    var dropZone = document.getElementById('drop-zone');
+    var uploadForm = document.getElementById('js-upload-form');
+
+    var startUpload = function(files) {
+        console.log(files)
+    }
+
+    uploadForm.addEventListener('submit', function(e) {
+        var uploadFiles = document.getElementById('js-upload-files').files;
+        e.preventDefault()
+
+        startUpload(uploadFiles)
+    })
+
+    dropZone.ondrop = function(e) {
+        e.preventDefault();
+        this.className = 'upload-drop-zone';
+
+        startUpload(e.dataTransfer.files)
+    }
+
+    dropZone.ondragover = function() {
+        this.className = 'upload-drop-zone drop';
+        return false;
+    }
+
+    dropZone.ondragleave = function() {
+        this.className = 'upload-drop-zone';
+        return false;
+    }
+   /* file upload */
 });
