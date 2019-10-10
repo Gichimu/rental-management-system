@@ -12,20 +12,34 @@ body {
     padding: 2%;
 }
 
-#legend li a {
+#legend a, #account a {
     text-decoration: none;
     list-style: none;
     display: block;
 }
 
-li {
+.col-md-3 {
+    border-right: 1px solid rgb(235, 229, 229);
+    padding-right: 3%;
+}
+
+.col-md-8 {
+    padding-left: 3%;
+}
+
+li{
     list-style: none;
 }
 
-.col-md-3 {
-    border-right: 1px solid rgb(235, 229, 229);
+footer {
+    margin: 3%;
 }
-
+.radios {
+    padding: 5%;
+}
+/* .signup {
+    margin: 5%;
+} */
 /* #border {
     padding: 3%;
 } */
@@ -36,6 +50,10 @@ li {
     right:auto;
     left:0px;   
 }  */
+
+.header {
+    padding: 5px;
+}
 
 .col-md-9 {
     
@@ -60,3 +78,22 @@ li {
     width: 100%;
 }
 
+/* layout.css Style */
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+  }
+  
+  /* skin.css Style*/
+  .upload-drop-zone {
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    line-height: 200px;
+    text-align: center
+  }
+  .upload-drop-zone.drop {
+    color: #222;
+    border-color: #222;
+  }

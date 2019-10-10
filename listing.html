@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Property management System</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav navbar bg-light sticky-top">
+            <div class="logo">
+                <img src="https://homestyleflooringsolutions.com/wp-content/uploads/2017/07/Property-Logo.jpg" alt="logo" width="70">
+                <p style="font-size:8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">...management on lock</p>
+            </div>
+            <div>
+                <a class="nav-item m-2" href="index.html">Home</a>
+                <a class="nav-item m-2"  href="#"> <b>Sign Up </b></a>
+                <a class="nav-item m-2"  href="#">Login </a> 
+            </div>
+        </nav>
+        <div class="row" id="breadcrumb">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="profile2.html">Profile</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Add Listing</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-3" id="left">
+                <div class="sticky-top">
+                    <h5><strong>Manage Listings</strong></h5>
+                    <div class="" id="legend">
+                        <a class="nav-item m-2" href="#">Add listing</a>
+                        <a class="nav-item m-2" href="#">Bookmarked listings</a>
+                        <a class="nav-item m-2" href="#">My listings</a>
+                    </div>
+                    <h5><strong>Manage Account</strong></h5>
+                    <div class="" id="account">
+                        <a class="nav-item m-2" href="profile.html">My profile</a>
+                        <a class="nav-item m-2" href="#">Change Password</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-8">
+                <div class="" id="about">
+                    <h2 class="">Submit your property</h2>
+                    <small>We have over 15,000 tenants for you</small>
+                    <hr>
+                    <h3 class="">Basic Details</h3>
+                </div>
+                <hr>
+                <div class="" id="profile-edit">
+                    
+                    <form>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>Property title</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>Bedrooms</small>
+                                <input type="number" class="form-control form-control-lg" min="1" max="5" placeholder="">
+                            </div>
+                            <div class="col">
+                                <small>Bathrooms</small>
+                                <input type="number" class="form-control form-control-lg" min="1" max="5" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>Area Sq/ft</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                            <div class="col">
+                                <small>Lr. number</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                        </div>
+                        <h5 class="header">Location</h5>
+                        <hr>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>Location</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                            <div class="col">
+                                <small>Address</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>City</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                            <div class="col">
+                                <small>State</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>Country</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                            <div class="col">
+                                <small>Zip code</small>
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                        </div>
+                        <h5 class="header">Additional features</h5>
+                        <hr>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Garden
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label" for="defaultCheck2">
+                                Gym
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Internet
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Swimming pool
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Parking
+                            </label>
+                        </div>
+                        <hr>
+                        <div class="form-group row">
+                            <div class="col">
+                                <small>Property Description</small>
+                                <textarea type="text" class="form-control form-control-lg" rows="7" placeholder=""></textarea>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-lg btn-warning" id="btn-profile">Save</button>
+                        </div>
+                        <h5 class="header">Upload photos</h5>
+                        <div class="upload-drop-zone" id="drop-zone">
+                            Just drag and drop files here
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid text-center bg-light">        
+        
+            <div class="row">
+    
+                <div id="zabe" class="col-md-4 card-body">
+                    <h3> Stop by our <i class="fa fa-building"></i></h3>
+                    <hr>
+                    <ul>
+                        <li>Nairobi</li>
+                        <li>Westlands</li>
+                        <li>Riverside Drive</li>
+                        <li style="line-height:2;"><i class="fa fa-phone" style="color: black; margin: 10px;"></i>+254 712 345 678</li>
+                    </ul>
+                </div>
+    
+                <div id="subuscribu" class="col-md-4 form-group card-body">
+                    <h3>Subscription?</h3>
+                    <hr>
+                    <p>Get a subscription to our newsletter for amazing offers and the latest trends in the market:</p>
+                    <input type="text" class="form-control" placeholder="Email">
+                    <button type="submit" class="btn btn-primary mt-2">Subscribe!</button>
+                </div>
+    
+                <div id="socials" class="col-md-4 card-body">
+                    <h3>Social Media Platforms</h3>
+                    <hr>
+                    <a href="#"><i class="fa fa-facebook" style="font-size:32px; color: black; margin: 10px;"> </i>@rentmanagementsystem</a><br>
+                    <a href="#"><i class="fa fa-linkedin" style="font-size:32px; color: black; margin: 10px;"> </i>@rentmanagementsystem</a><br>
+                    <a href="#"><i class="fa fa-instagram" style="font-size:32px; color: black; margin: 10px;"> </i>@rentmanagementsystem</a>
+                </div>
+    
+            </div>        
+    
+        </footer>
+    </div>
+    
+</body>
+</html>

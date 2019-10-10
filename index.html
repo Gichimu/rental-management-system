@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Khula&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Property management System</title>
 </head>
 <body>
@@ -19,9 +20,9 @@
         </div>
         <div>
             <a class="nav-item m-2" href="#">Home</a>
-            <a class="nav-item m-2"  href="#">Listings</a>
-            <a class="nav-item m-2"  href="#"> <b>Sign Up </b></a>
-            <a class="nav-item m-2"  href="#">Login </a> 
+            <a class="nav-item m-2" data-toggle="modal"  data-target="#exampleModalCenter">Sign Up</a>
+            <a class="nav-item m-2" data-toggle="modal" data-target="#sign-in">Login </a> 
+            <a class="nav-item m-2"  href="contacts.html">Contacts </a>
         </div>
     </nav>
 
@@ -29,7 +30,10 @@
     <header>        
         <div class="container text-center mt-4" style="margin-bottom:100px">
             <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Rental Management System creates a criteria in which tenants and landlords are able to interact based on a common purpose.</p>
+            <p>Landlords are able ti upload their properties whereas tenants can create profiles and view available units.</p>
+            <p>Tenants ratings are available to landlords before taking them into their units.</p>
+            <p>Landlords are also rated in accordance to how they manage their properties.</p>
         </div>
     </header>
 
@@ -52,7 +56,7 @@
                     <a class="mt-4" href="#">Read More.</a>
                 </div>
             </div>
-            <div class="col-md-4 m-1 card card-body">
+            <div class="col-md-4 m-1 card card-body" id="test1">
                 <img class="img-fluid" id="img2" src="https://image.shutterstock.com/image-photo/house-building-city-construction-concept-260nw-189023420.jpg" alt="apartment002">
                 <div class="text-center hover-text hidden" id="overlay2">
                     <p>One bedroom </p><p> apartment</p><br>
@@ -73,6 +77,91 @@
         </div>
     </section>
 
+    <!-- sign up modal-->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Sign up</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="signup" id="">
+                    <div class="form-group row">
+                        <div class="col">
+                            <input type="text" class="form-control form-control-lg" placeholder="first name" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control form-control-lg" placeholder="last name" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col">
+                            <input type="email" class="form-control form-control-lg" placeholder="email" required>
+                        </div>
+                    </div>
+                    <div class="radios text-center">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="landlord">
+                            <label class="form-check-label" for="inlineRadio1">As Landlord</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="tenant">
+                            <label class="form-check-label" for="inlineRadio2">As Tentant</label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col">
+                            <input type="password" class="form-control form-control-lg" placeholder="preferred password" required>
+                        </div>
+                        <div class="col">
+                            <input type="password" class="form-control form-control-lg" placeholder="repeat password" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success">Save changes</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+
+    <!-- sign in modal-->
+    <div class="modal fade" id="sign-in" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Sign up</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <div class="signup" id="">
+                    <div class="form-group row">
+                        <div class="col">
+                            <input type="text" class="form-control form-control-lg" placeholder="first name" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col">
+                            
+                            <input type="password" class="form-control form-control-lg" placeholder="password" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success">Save changes</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
     <footer class="container-fluid text-center bg-light">        
         
         <div class="row">
@@ -107,6 +196,7 @@
         </div>        
 
     </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
 
