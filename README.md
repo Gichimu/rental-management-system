@@ -12,6 +12,13 @@ We are all prep students at moringa school studying software development.
 
 ## BDD
 (Behavior Driven Development)
+The website is very easy to use. On the landing page there are several links to navigate through.
+* on the sign up page ,a client is able to create an accout either as a landlord or a tenant.
+* for one to be verified as a landlord,they must input their KRA code.
+* After signing up the user is redirected to different pages ie, as alandlord ,you create a profile with all the lisitngs in your portfolio and as a tenant you create a profile and view the status of what is available.
+* The landlord is able to add lisitngs on the listings page and also edit some changes on the same.
+* Other users can also see what houses are  available on the landing page based on the landlord`s input.
+
  
 ## Languages
 The website is written in english.
@@ -23,7 +30,7 @@ No setups and installations.
 * Javascript
 * Jquery
 * Bootstrap
-* firebase/
+* firebase databse
 ## Support and contact details
 
 
