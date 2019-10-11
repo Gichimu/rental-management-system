@@ -26,27 +26,27 @@
 //hover text for index images
 
 $(document).ready(function(){
-  // $("#img1").mouseenter(function(){
-  //   $("#overlay1").show();
+  $("#img1").mouseenter(function(){
+    $("#overlay1").show();
     
-  // });
-  //  $("#img1").mouseleave(function(){
-  //  $("#overlay1").hide();
-  //  });
-  // $("#img2").mouseenter(function(){
-  //   $("#overlay2").show();
+  });
+   $("#img1").mouseleave(function(){
+   $("#overlay1").hide();
+   });
+  $("#img2").mouseenter(function(){
+    $("#overlay2").show();
     
-  // });
-  // $("#img2").mouseleave(function(){
-  //   $("#overlay2").hide();
-  // });
-  //  $("#img3").mouseenter(function(){
-  //   $("#overlay3").show();
+  });
+  $("#img2").mouseleave(function(){
+    $("#overlay2").hide();
+  });
+   $("#img3").mouseenter(function(){
+    $("#overlay3").show();
     
-  // });
-  //  $("#img3").mouseleave(function(){
-  //  $("#overlay3").hide();
-  //  });
+  });
+   $("#img3").mouseleave(function(){
+   $("#overlay3").hide();
+   });
 
     
 
