@@ -37,6 +37,10 @@ footer {
 .radios {
     padding: 5%;
 }
+
+.checked {
+    color: orange;
+}
 /* .signup {
     margin: 5%;
 } */
@@ -51,11 +55,28 @@ footer {
     left:0px;   
 }  */
 
-#specs, #agent {
-    border: 1px hidden;
-    box-shadow: 1em rgb(201, 197, 197);
+.result a:hover {
+    background-color: gray;
 }
 
+#icons {
+    display: flex;
+    flex-direction: column;
+}
+#specs, #agent {
+    border: 1px solid rgb(228, 223, 223);
+    box-shadow: 5px 0px 10px 0px rgb(228, 223, 223);
+    padding: 5%;
+    margin: 5%;
+}
+
+#content {
+    padding: 2%;
+}
+
+#agent, #desc, #details {
+    margin-top: 8%;
+}
 #hse-img {
     width: 90%;
 }

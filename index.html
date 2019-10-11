@@ -21,8 +21,8 @@
         </div>
         <div>
             <a class="nav-item m-2" href="#">Home</a>
-            <a class="nav-item m-2" data-toggle="modal"  data-target="#exampleModalCenter">Sign Up</a>
-            <a class="nav-item m-2" data-toggle="modal" data-target="#sign-in">Login </a> 
+            <a class="nav-item m-2" data-toggle="modal" data-target="#exampleModalCenter" id="link1">Sign Up</a>
+            <a class="nav-item m-2" data-toggle="modal" data-target="#sign-in" id="link2">Login </a> 
             <a class="nav-item m-2"  href="contacts.html">Contacts </a>
         </div>
     </nav>
@@ -42,7 +42,7 @@
         <div class="form-group">
             <input class="form-control" type="text" value="" placeholder="Search for a Property">
         </div>
-        <button class="btn btn-primary">Search</button>
+        <button class="btn btn-primary" id="search">Search</button>
     </div>
 
     <h2 class="text-center mt-4">Recent Rental Properties</h2>
@@ -89,42 +89,44 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="signup" id="">
-                    <div class="form-group row">
-                        <div class="col">
-                            <input type="text" class="form-control form-control-lg" placeholder="first name" required>
+                <form>
+                    <div class="signup" id="">
+                        <div class="form-group row">
+                            <div class="col">
+                                <input type="text" class="form-control form-control-lg" placeholder="first name" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control form-control-lg" placeholder="last name" required>
+                            </div>
                         </div>
-                        <div class="col">
-                            <input type="text" class="form-control form-control-lg" placeholder="last name" required>
+                        <div class="form-group row">
+                            <div class="col">
+                                <input type="email" class="form-control form-control-lg" placeholder="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="radios text-center">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="landlord">
+                                <label class="form-check-label" for="inlineRadio1">As Landlord</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="tenant">
+                                <label class="form-check-label" for="inlineRadio2">As Tentant</label>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <input type="password" class="form-control form-control-lg" placeholder="preferred password" id="password1" required>
+                            </div>
+                            <div class="col">
+                                <input type="password" class="form-control form-control-lg" placeholder="repeat password" id="password2" required>
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <div class="col">
-                            <input type="email" class="form-control form-control-lg" placeholder="email" id="email" required>
-                        </div>
-                    </div>
-                    <div class="radios text-center">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="landlord">
-                            <label class="form-check-label" for="inlineRadio1">As Landlord</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="tenant">
-                            <label class="form-check-label" for="inlineRadio2">As Tentant</label>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col">
-                            <input type="password" class="form-control form-control-lg" placeholder="preferred password" id="password1" required>
-                        </div>
-                        <div class="col">
-                            <input type="password" class="form-control form-control-lg" placeholder="repeat password" id="password2" required>
-                        </div>
-                    </div>
-                </div>
+                </form>
             </div>
-            <div class="modal-footer text-center">
-                <a href="profile.html"><button type="button" class="btn btn-primary" id="savebtn" data-dismiss="modal">Sign Up</button></a>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="savebtn" data-dismiss="modal">Sign Up</button>
             </div>
             </div>
         </div>
@@ -141,25 +143,25 @@
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="profile.html">
             <div class="modal-body text-center" >
-                <div class="signup" id="">
-                    <div class="form-group row">
-                        <div class="col">
-                            <input type="text" class="form-control form-control-lg" placeholder="first name" required>
+                <form action="profile.html">
+                    <div class="signup" id="">
+                        <div class="form-group row">
+                            <div class="col">
+                                <input type="text" class="form-control form-control-lg" placeholder="first name" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                
+                                <input type="password" class="form-control form-control-lg" placeholder="password" required>
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <div class="col">
-                            
-                            <input type="password" class="form-control form-control-lg" placeholder="password" required>
-                        </div>
-                    </div>
-                </div>
+                </form>
             </div>
-        </form>
             <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Login</button>
+                <button type="button" class="btn btn-success" data-dismiss="modal" id="login-btn">Login</button>
             </div>
             </div>
         </div>
