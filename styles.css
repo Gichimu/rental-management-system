@@ -51,6 +51,11 @@ footer {
     left:0px;   
 }  */
 
+#specs, #agent {
+    border: 1px hidden;
+    box-shadow: 1em rgb(201, 197, 197);
+}
+
 #hse-img {
     width: 90%;
 }
