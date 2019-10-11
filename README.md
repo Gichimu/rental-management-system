@@ -6,6 +6,9 @@ The website for Renal Management system is a platform where Landlords can evalua
 
 ## List of contributors
 [Virginiah Periah] [github:virginiah@894]
+[Wendy Orengo] [github:wendyorengo]
+[Eric Gichimu] [github:Gichimu]
+[Jacques kiruma] [github:jacques]
 
 ## About authors
 We are all prep students at moringa school studying software development.
