@@ -50,4 +50,7 @@ a:hover{
     display: none;
 }
 
+p, h3, li{
+    font-family: 'Khula', sans-serif;
+}
 
