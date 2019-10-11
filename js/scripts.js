@@ -48,7 +48,9 @@ $(document).ready(function(){
    $("#overlay3").hide();
    });
 
-    
+    $("#link1").click(function(){
+      $('#exampleModalCenter').modal('show')
+    });
 
    /* login authentication */
    $("button#savebtn").click(function(){
