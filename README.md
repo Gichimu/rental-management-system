@@ -5,10 +5,10 @@
 The website for Renal Management system is a platform where Landlords can evaluate the history of the tenants and tenants can access the quality of houses they are prospecting.
 
 ## List of contributors
-[Virginiah Periah] [github:virginiah@894]
-[Wendy Orengo] [github:wendyorengo]
-[Eric Gichimu] [github:Gichimu]
-[Jacques kiruma] [github:jacques]
+- [Virginiah Periah] [github:virginiah@894]
+- [Wendy Orengo] [github:wendyorengo]
+- [Eric Gichimu] [github:Gichimu]
+- [Jacques kiruma] [github:jacques]
 
 ## About authors
 We are all prep students at moringa school studying software development.
@@ -33,9 +33,9 @@ No setups and installations.
 * Javascript
 * Jquery
 * Bootstrap
-* firebase databse
+
 ## Support and contact details
-
-
+ Incase of any queries contact [gichimueric12@gmail.com]
+ 
  ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
