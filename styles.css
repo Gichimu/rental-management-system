@@ -51,13 +51,20 @@ footer {
     left:0px;   
 }  */
 
+#hse-img {
+    width: 90%;
+}
+
+.col-md-10 {
+}
+
 .header {
     padding: 5px;
 }
 
-.col-md-9 {
+.col-md-4 {
     
-    
+    border-left: 1px solid rgb(235, 229, 229);
 }
 
 
