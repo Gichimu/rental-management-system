@@ -37,6 +37,10 @@ footer {
 .radios {
     padding: 5%;
 }
+
+.checked {
+    color: orange;
+}
 /* .signup {
     margin: 5%;
 } */
@@ -50,6 +54,10 @@ footer {
     right:auto;
     left:0px;   
 }  */
+
+.result a:hover {
+    background-color: gray;
+}
 
 #icons {
     display: flex;

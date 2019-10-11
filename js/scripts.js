@@ -48,8 +48,16 @@ $(document).ready(function(){
    $("#overlay3").hide();
    });
 
-    $("#link1").click(function(){
-      $('#exampleModalCenter').modal('show')
+    $("#login-btn").click(function(){
+      window.location.href = "profile.html";
+    });
+
+    $("#btn-profile").click(function(){
+      window.location.href = "single-view.html";
+    });
+
+    $("#search").click(function(){
+      window.location.href = "results.html";
     });
 
    /* login authentication */
